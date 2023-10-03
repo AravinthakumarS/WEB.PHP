@@ -13,7 +13,6 @@ if(isset($_GET['lines'])) {
 
     echo "Triangle : <br>";
     triangle($nombre);
-} else {
-    echo "Veuillez spécifier le nombre de lignes dans l'URL.";
 }
+
 ?>
